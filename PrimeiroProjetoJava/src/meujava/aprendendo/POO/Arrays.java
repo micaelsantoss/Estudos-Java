@@ -21,7 +21,7 @@ public class Arrays {
             System.out.println("Digite o seu sobrenome: ");
             lastName = scanner.nextLine();
 
-            User user = new User();
+            User user = new User(firstName, lastName);
             user.setFirstName(firstName);
             user.setLastNameName(lastName);
 
